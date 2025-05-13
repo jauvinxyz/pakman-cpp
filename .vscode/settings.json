@@ -1,0 +1,15 @@
+{
+  "files.exclude": {
+    "**/*.rpyc": true,
+    "**/*.rpa": true,
+    "**/*.rpymc": true,
+    "**/cache/": true
+  },
+  "files.associations": {
+    "iostream": "cpp",
+    "string": "cpp",
+    "vector": "cpp",
+    "deque": "cpp",
+    "cmath": "cpp"
+  }
+}
