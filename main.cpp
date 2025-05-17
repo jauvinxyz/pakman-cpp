@@ -598,7 +598,7 @@ void resultsDisplay(){
 			glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24, *message++);
 		result = to_string(gametime) + " seconds";
 		message = (char*)result.c_str();
-		glRasterPos2f(350, 450);
+		glRasterPos2f(365, 450);
 		while (*message)
 			glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24, *message++);
 
